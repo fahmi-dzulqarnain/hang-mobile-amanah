@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/txtJudulAtkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ustadz Abduh Arrasyad, BA"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/txtTanggalAtkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin Pukul Ba'da Maghrib"
+            android:textSize="13sp"
+            android:layout_below="@id/txtJudulAtkj"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/txtUrlAtkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senin Pukul Ba'da Maghrib"
+            android:textColor="#00FFFFFF"
+            android:layout_below="@id/txtJudulAtkj"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"/>
+
+</RelativeLayout>

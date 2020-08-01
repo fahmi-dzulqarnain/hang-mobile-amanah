@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AtkjListActivity">
+
+    <ImageView
+        android:id="@+id/imgATKJillustration"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/atkj_illustration"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rectangletransparentpray"/>
+
+    <TextView
+        android:id="@+id/txtTitleAtkj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Rekaman Anda Tanya Kami Jawab"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="80dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-16dp"
+        android:layout_marginBottom="-16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="16dp"
+        android:layout_below="@id/imgATKJillustration">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvATKJ"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

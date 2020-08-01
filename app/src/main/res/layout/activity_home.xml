@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.efsoft.hangmedia.activity.HomeActivity"
+    android:background="#fcfcfc">
+
+    <ScrollView
+        android:id="@+id/mainRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--ImageView
+                android:id="@+id/imgApp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/app_background_circle"
+                android:scaleType="centerCrop"/-->
+
+            <RelativeLayout
+                android:id="@+id/imgApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bottomleftroundrectangle"
+                android:paddingTop="32dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="24dp">
+
+                <ImageView
+                    android:id="@+id/imgLogoHome"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/hangmobile_logo_png"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="32dp"/>
+
+                <TextView
+                    android:id="@+id/txtAhlanWaSahlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ahlan_wa_sahlan"
+                    android:textColor="#fff"
+                    android:textSize="17sp"
+                    android:layout_below="@id/imgLogoHome"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="12dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cardViewMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgApp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerHorizontal="true"
+                    android:isScrollContainer="true"
+                    android:baselineAligned="false"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btnTelevision"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgTelevision"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/tv_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/hang_tv" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgTelevision"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtHangTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_tv"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtHangTvContent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_tv_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtHangTv"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnRadio_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgRadio"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/radio_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/hang_106_fm" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgRadio"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtHang106Fm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_106_fm"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtHangFMc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_fm_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtHang106Fm"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnJadwalShalat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgJadwalShalat"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/pray_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/jadwal_shalat" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgJadwalShalat"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtJadwal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/jadwal_shalat"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtJadwalc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/jadwal_shalat_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtJadwal"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnProgramHang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgTimetable"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/program_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/donasi" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgTimetable"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtTimetable"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/timetable"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtTimetableC"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/timetable_desctiption"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtTimetable"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnDonasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgDonate"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/donate_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/donasi" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgDonate"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtDonates"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/donasi"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtDonatesC"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/donasi_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtDonates"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <!--RelativeLayout
+                        android:id="@+id/btnKajian"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgKajian"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/kajian_icon_grad"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/hang_artikel" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgKajian"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtKajian"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_artikel"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtKajianc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hang_artikel_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtKajian"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout-->
+
+                    <RelativeLayout
+                        android:id="@+id/btnATKJ"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgATKJ"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/atkj_icon"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/atkj_file" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgATKJ"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtATKJWA"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/atkj_file"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtATKJWAc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/atkj_file_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtATKJWA"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgProfile"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/profile_icon"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/profile" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgProfile"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp">
+
+                            <TextView
+                                android:id="@+id/txtProfile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/profile"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginStart="14dp"/>
+
+                            <TextView
+                                android:id="@+id/txtProfilec"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/profile_description"
+                                android:textSize="14.5sp"
+                                android:layout_below="@id/txtProfile"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="14dp"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnBahasa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_gravity="center_horizontal"
+                        android:background="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgBahasa"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            app:srcCompat="@drawable/ic_bahasa"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/donasi" />
+
+                        <TextView
+                            android:id="@+id/txtBahasa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ubah_bahasa"
+                            android:layout_toEndOf="@id/imgBahasa"
+                            android:textSize="14sp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="14dp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pemisah2"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#dfdfdf"
+                android:layout_below="@id/cardViewMenu"/>
+
+            <RelativeLayout
+                android:id="@+id/cardViewSocialMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/pemisah2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <TextView
+                        android:id="@+id/txtSocialMedia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ikuti_kami_di"
+                        android:textStyle="bold"
+                        android:layout_marginStart="16dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="2"
+                        android:layout_marginTop="27dp"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginEnd="27dp"
+                        android:orientation="horizontal">
+
+                        <!--RelativeLayout
+                            android:id="@+id/btnYoutube"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            style="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:id="@+id/imgYoutube"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/youtube_icon"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgYoutube"
+                                android:layout_alignBottom="@+id/imgYoutube"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="-30dp"
+                                android:text="Hang TV" />
+
+                        </RelativeLayout-->
+
+                        <RelativeLayout
+                            android:id="@+id/btnFacebook"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            style="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:id="@+id/imgFacebook"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/fb_icon"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgFacebook"
+                                android:layout_alignBottom="@+id/imgFacebook"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="-30dp"
+                                android:text="@string/hang_106_fm" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/btnInstagram"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            style="?attr/selectableItemBackground">
+
+                            <ImageView
+                                android:id="@+id/imgInstagram"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ig_icon"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgInstagram"
+                                android:layout_alignBottom="@+id/imgInstagram"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="-30dp"
+                                android:text="hangmedia" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <!--androidx.cardview.widget.CardView
+                android:id="@+id/cardViewBantuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewSocialMedia"
+                app:cardElevation="16dp"
+                app:cardCornerRadius="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="16dp">
+
+                    <TextView
+                        android:id="@+id/txtBantuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/memiliki_masalah_saran_untuk_aplikasi"
+                        android:textStyle="bold"
+                        android:layout_marginStart="16dp"
+                        android:layout_centerHorizontal="true"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/btnWaKu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        style="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/imgWAku"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/whatsapp_icon_fix"/>
+
+                        <TextView
+                            android:id="@+id/txtWaKu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/imgWAku"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="16dp"
+                            android:text="@string/call_us"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <!--RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#1B5E20"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2E7D32">
+
+            <TextView
+                android:id="@+id/txtHangMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hang_title"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView-->
+
+</RelativeLayout>

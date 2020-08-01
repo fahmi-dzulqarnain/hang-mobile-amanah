@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="25dp"
+    android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/txtNoInt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Atur Lokasi Manual"
+            android:textStyle="bold"
+            android:textColor="#222"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/txtNoInt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txtNoInt1"
+            android:layout_marginTop="12dp"
+            android:textColor="#222"
+            android:layout_marginEnd="10dp"
+            android:text="Lokasi Anda tidak terdeteksi, silakan masukkan lokasi secara manual, atau pilih salah satu kota berikut."/>
+
+        <RelativeLayout
+            android:id="@+id/relativeAuto"
+            android:layout_below="@id/txtNoInt2"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_add_location_black"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="12dp"/>
+
+                <TextView
+                    android:id="@+id/txtAuto"
+                    android:layout_margin="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cari Otomatis"
+                    android:layout_toEndOf="@id/imgLocation"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:src="@drawable/rectanglegrey"
+                    android:layout_below="@id/txtAuto"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeBatam"
+            android:layout_below="@id/relativeAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtBatam"
+                    android:layout_margin="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kota Batam, Indonesia"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:src="@drawable/rectanglegrey"
+                    android:layout_below="@id/txtBatam"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeSingapore"
+            android:layout_below="@id/relativeBatam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtSingapore"
+                    android:layout_margin="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Singapore"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:src="@drawable/rectanglegrey"
+                    android:layout_below="@id/txtSingapore"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeJohorBahru"
+            android:layout_below="@id/relativeSingapore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtJohorBahru"
+                    android:layout_margin="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Johor Bahru, Malaysia"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:src="@drawable/rectanglegrey"
+                    android:layout_below="@id/txtJohorBahru"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeKualaLumpur"
+            android:layout_below="@id/relativeJohorBahru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/txtKualaLumpur"
+                    android:layout_margin="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kuala Lumpur, Malaysia"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>

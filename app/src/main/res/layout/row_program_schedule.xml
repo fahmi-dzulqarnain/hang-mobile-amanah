@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="12dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeProgram1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#388E3C">
+
+        <TextView
+            android:id="@+id/txtJamJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_00"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtMenitJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_00"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/txtJamJadwal"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/relativeProgram1"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/txtJudulJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atkj_file_description"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/txtPemateriJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtJudulJadwal"
+            android:text="@string/atkj_wa_description_en"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/imgTvLive"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:src="@drawable/youtube_logo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

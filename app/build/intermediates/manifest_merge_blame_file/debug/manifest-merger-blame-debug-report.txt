@@ -1,0 +1,684 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.efsoft.hangmedia"
+4    android:versionCode="27"
+5    android:versionName="3.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:7:5-67
+11-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:8:5-81
+12-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:9:5-79
+13-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:10:5-79
+14-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:11:5-66
+15-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:11:22-63
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:12:5-68
+16-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:13:5-77
+17-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:13:22-74
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:14:5-68
+18-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:14:22-65
+19    <uses-permission android:name="android.permission.START_SERVICE_AFTER" />
+19-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:15:5-77
+19-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:15:22-75
+20
+21    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+21-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:17:5-75
+21-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:17:17-72
+22
+23    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+24    <permission
+24-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:7:5-9:47
+25        android:name="com.efsoft.hangmedia.permission.C2D_MESSAGE"
+25-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:8:9-63
+26        android:protectionLevel="signature" />
+26-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:9:9-44
+27
+28    <uses-permission android:name="com.efsoft.hangmedia.permission.C2D_MESSAGE" />
+28-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:11:5-79
+28-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:11:22-76
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:17:5-82
+29-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:17:22-79
+30    <!--
+31 Use to restore notifications the user hasn't interacted with.
+32         They could be missed notifications if the user reboots their device if this isn't in place.
+33    -->
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+34-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:29:5-81
+34-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:29:22-78
+35    <!-- Samsung -->
+36    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+36-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:31:5-86
+36-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:31:22-83
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+37-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:32:5-87
+37-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:32:22-84
+38    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+38-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:33:5-81
+38-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:33:22-78
+39    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+39-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:34:5-83
+39-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:34:22-80
+40    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+40-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:35:5-88
+40-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:35:22-85
+41    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+41-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:36:5-92
+41-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:36:22-89
+42    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+42-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:37:5-84
+42-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:37:22-81
+43    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+43-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:38:5-83
+43-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:38:22-80
+44    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+44-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:39:5-91
+44-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:39:22-88
+45    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+45-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:40:5-92
+45-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:40:22-89
+46    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+46-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:41:5-93
+46-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:41:22-90
+47    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+47-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:42:5-73
+47-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:42:22-70
+48    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+48-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:43:5-82
+48-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:43:22-79
+49    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+49-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:44:5-83
+49-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:44:22-80
+50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+50-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:45:5-88
+50-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:45:22-85
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+51-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:46:5-89
+51-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:46:22-86
+52    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+52-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:26:5-110
+52-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:26:22-107
+53
+54    <application
+54-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:19:5-155:19
+55        android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.MyApplication"
+55-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:20:9-61
+56        android:allowBackup="true"
+56-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:21:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.1.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
+58        android:debuggable="true"
+59        android:hardwareAccelerated="true"
+59-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:22:9-43
+60        android:icon="@drawable/hang_fm_logo"
+60-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:23:9-46
+61        android:label="@string/app_name"
+61-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:24:9-41
+62        android:supportsRtl="true"
+62-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:25:9-35
+63        android:testOnly="true"
+64        android:theme="@style/AppTheme.NoTitle"
+64-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:26:9-48
+65        android:usesCleartextTraffic="true" >
+65-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:27:9-44
+66        <activity android:name="com.efsoft.hangmedia.activity.ProgramHomeActivity" />
+66-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:29:9-66
+66-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:29:19-63
+67        <activity android:name="com.efsoft.hangmedia.activity.AtkjListActivity" />
+67-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:30:9-63
+67-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:30:19-60
+68        <activity android:name="com.efsoft.hangmedia.activity.CompanyProfileActivity" />
+68-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:31:9-69
+68-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:31:19-66
+69        <activity android:name="com.efsoft.hangmedia.activity.AtkjSoundActivity" />
+69-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:32:9-64
+69-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:32:19-61
+70        <activity android:name="com.efsoft.hangmedia.activity.DetailDonasiActivity" />
+70-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:33:9-67
+70-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:33:19-64
+71        <activity android:name="com.efsoft.hangmedia.activity.Program2Activity" />
+71-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:34:9-63
+71-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:34:19-60
+72        <activity android:name="com.efsoft.hangmedia.activity.JadwalShalatActivity" />
+72-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:35:9-67
+72-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:35:19-64
+73        <activity android:name="com.efsoft.hangmedia.SplashActivity" >
+73-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:36:9-42:20
+73-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:36:19-49
+74            <intent-filter>
+74-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:37:13-41:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:38:17-69
+75-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:38:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:40:17-77
+77-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:40:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:43:9-46:55
+81            android:name="com.efsoft.hangmedia.activity.HomeActivity"
+81-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:44:13-50
+82            android:configChanges="orientation|keyboardHidden|screenSize"
+82-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:45:13-74
+83            android:windowSoftInputMode="adjustPan" />
+83-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:46:13-52
+84        <activity
+84-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:47:9-51:55
+85            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.MainActivity"
+85-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:48:13-64
+86            android:configChanges="orientation|keyboardHidden|screenSize"
+86-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:49:13-74
+87            android:theme="@style/AppThemeTv"
+87-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:50:13-46
+88            android:windowSoftInputMode="adjustPan" />
+88-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:51:13-52
+89        <activity
+89-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:52:9-55:59
+90            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.CategoryItemActivity"
+90-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:53:13-72
+91            android:configChanges="orientation|keyboardHidden|screenSize"
+91-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:54:13-74
+92            android:theme="@style/AppTheme.NoActionBar" />
+92-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:55:13-56
+93        <activity
+93-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:56:9-59:59
+94            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.MoreActivity"
+94-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:57:13-64
+95            android:configChanges="orientation|keyboardHidden|screenSize"
+95-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:58:13-74
+96            android:theme="@style/AppTheme.NoActionBar" />
+96-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:59:13-56
+97        <activity
+97-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:60:9-63:59
+98            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.PlayListActivity"
+98-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:61:13-68
+99            android:configChanges="orientation|keyboardHidden|screenSize"
+99-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:62:13-74
+100            android:theme="@style/AppTheme.NoActionBar" />
+100-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:63:13-56
+101        <activity
+101-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:64:9-66:77
+102            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.SearchActivity"
+102-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:65:13-66
+103            android:configChanges="orientation|keyboardHidden|screenSize" />
+103-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:66:13-74
+104        <activity
+104-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:67:9-71:59
+105            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.YtPlayActivity"
+105-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:68:13-66
+106            android:configChanges="orientation|screenSize"
+106-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:69:13-59
+107            android:screenOrientation="sensor"
+107-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:70:13-47
+108            android:theme="@style/AppTheme.NoActionBar" />
+108-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:71:13-56
+109        <activity
+109-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:72:9-76:59
+110            android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.YoutubePlay"
+110-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:73:13-63
+111            android:configChanges="orientation|screenSize"
+111-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:74:13-59
+112            android:screenOrientation="sensor"
+112-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:75:13-47
+113            android:theme="@style/AppTheme.NoActionBar" />
+113-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:76:13-56
+114        <activity android:name="com.efsoft.hangmedia.hangtv.youtubeplaylist.SplashTvActivity" /> <!-- No Action Bar Activity -->
+114-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:77:9-77
+114-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:77:19-74
+115        <activity
+115-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:78:9-80:59
+116            android:name="com.efsoft.hangmedia.activity.ProgramScheduleActivity"
+116-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:79:13-61
+117            android:theme="@style/AppTheme.NoActionBar" />
+117-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:80:13-56
+118        <activity
+118-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:81:9-97:20
+119            android:name="com.efsoft.hangmedia.radio.RadioStreamActivity"
+119-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:82:13-54
+120            android:configChanges="orientation|keyboardHidden|screenSize"
+120-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:84:13-74
+121            android:label="@string/app_name"
+121-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:83:13-45
+122            android:theme="@style/AppTheme.NoActionBar" >
+122-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:85:13-56
+123            <intent-filter>
+123-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:86:13-96:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:87:17-69
+124-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:87:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:89:17-76
+126-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:89:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:90:17-78
+127-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:90:27-75
+128
+129                <data
+129-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:92:17-95:56
+130                    android:host="tiviapi.online"
+130-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:94:21-50
+131                    android:pathPrefix="/hangmobile"
+131-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:95:21-53
+132                    android:scheme="http" />
+132-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:93:21-42
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:98:9-112:20
+136            android:name="com.efsoft.hangmedia.activity.WebViewActivity"
+136-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:99:13-53
+137            android:theme="@style/AppTheme.NoActionBar" >
+137-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:100:13-56
+138            <intent-filter>
+138-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:101:13-111:29
+139                <action android:name="android.intent.action.VIEW" />
+139-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:87:17-69
+139-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:87:25-66
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:89:17-76
+141-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:89:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:90:17-78
+142-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:90:27-75
+143
+144                <data
+144-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:92:17-95:56
+145                    android:host="today.hangmobile.site"
+145-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:94:21-50
+146                    android:pathPrefix="/artikel"
+146-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:95:21-53
+147                    android:scheme="https" />
+147-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:93:21-42
+148            </intent-filter>
+149        </activity> <!-- Receiver and Service -->
+150        <receiver android:name="com.efsoft.hangmedia.background.TelephonyManagerReceiver" >
+150-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:113:9-117:20
+150-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:113:19-70
+151            <intent-filter>
+151-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:114:13-116:29
+152                <action android:name="android.intent.action.PHONE_STATE" />
+152-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:115:17-76
+152-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:115:25-73
+153            </intent-filter>
+154        </receiver>
+155        <receiver android:name="com.efsoft.hangmedia.background.HeadsetReceiver" >
+155-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:118:9-122:20
+155-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:118:19-61
+156            <intent-filter>
+156-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:119:13-121:29
+157                <action android:name="android.intent.action.HEADSET_PLUG" />
+157-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:120:17-77
+157-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:120:25-74
+158            </intent-filter>
+159        </receiver>
+160        <receiver android:name="com.efsoft.hangmedia.notification.ActionReceiver" />
+160-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:123:9-65
+160-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:123:19-62
+161        <receiver android:name="com.efsoft.hangmedia.notification.AtkjNotifReceiver" />
+161-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:124:9-68
+161-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:124:19-65
+162        <receiver
+162-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:125:9-127:38
+163            android:name="com.efsoft.hangmedia.notification.AlarmReceiver"
+163-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:126:13-55
+164            android:enabled="true" />
+164-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:127:13-35
+165        <receiver
+165-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:129:9-136:20
+166            android:name="com.efsoft.hangmedia.background.AlarmBroadcast"
+166-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:130:13-54
+167            android:exported="true"
+167-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:131:13-36
+168            android:permission="android.permission.START_SERVICE_AFTER" >
+168-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:132:13-72
+169            <intent-filter>
+169-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:133:13-135:29
+170                <action android:name="com.android.ServiceStopped" />
+170-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:134:17-68
+170-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:134:25-66
+171            </intent-filter>
+172        </receiver>
+173
+174        <service android:name="com.efsoft.hangmedia.background.ForegroundService" />
+174-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:138:9-65
+174-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:138:18-62
+175        <service android:name="com.efsoft.hangmedia.background.PrayTimeService" />
+175-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:139:9-63
+175-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:139:18-60
+176
+177        <!-- Meta Data and Library -->
+178        <meta-data
+178-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:142:9-144:39
+179            android:name="com.onesignal.NotificationOpened.DEFAULT"
+179-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:143:13-68
+180            android:value="DISABLE" />
+180-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:144:13-36
+181        <meta-data
+181-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:145:9-147:40
+182            android:name="com.onesignal.NotificationAccentColor.DEFAULT"
+182-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:146:13-73
+183            android:value="FFE62118" />
+183-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:147:13-37
+184        <meta-data
+184-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:148:9-150:71
+185            android:name="com.google.firebase.messaging.default_notification_channel_id"
+185-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:149:13-89
+186            android:value="@string/default_notification_channel_id" />
+186-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:150:13-68
+187
+188        <uses-library
+188-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:152:9-154:40
+189            android:name="org.apache.http.legacy"
+189-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:153:13-50
+190            android:required="false" />
+190-->F:\Kumpulan Backup Project\HangMediaV.3.0\app\src\main\AndroidManifest.xml:154:13-37
+191
+192        <activity
+192-->[pub.devrel:easypermissions:3.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\95f85ff18a0a79bfb559df589c3945c9\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+193            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+193-->[pub.devrel:easypermissions:3.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\95f85ff18a0a79bfb559df589c3945c9\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+194            android:exported="false"
+194-->[pub.devrel:easypermissions:3.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\95f85ff18a0a79bfb559df589c3945c9\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+195            android:label=""
+195-->[pub.devrel:easypermissions:3.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\95f85ff18a0a79bfb559df589c3945c9\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+196            android:theme="@style/EasyPermissions.Transparent" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+196-->[pub.devrel:easypermissions:3.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\95f85ff18a0a79bfb559df589c3945c9\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+197        <activity
+197-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:5-271
+198            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+198-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:15-102
+199            android:enabled="false"
+199-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:103-126
+200            android:exported="false"
+200-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:127-151
+201            android:launchMode="singleInstance"
+201-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:204-239
+202            android:process=":playcore_missing_splits_activity"
+202-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:152-203
+203            android:stateNotNeeded="true" />
+203-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:12:240-269
+204        <activity
+204-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:5-226
+205            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+205-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:15-95
+206            android:enabled="false"
+206-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:96-119
+207            android:exported="false"
+207-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:120-144
+208            android:stateNotNeeded="true"
+208-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:145-174
+209            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+209-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:13:175-224
+210        <service
+210-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:16:5-145
+211            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+211-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:16:14-95
+212            android:enabled="false"
+212-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:16:96-119
+213            android:exported="true" />
+213-->[com.google.android.play:core:1.7.3] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\9fc87bfe6407a24529c149c461ca4c9a\jetified-core-1.7.3\AndroidManifest.xml:16:120-143
+214
+215        <provider
+215-->[com.squareup.picasso:picasso:2.71828] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\e037070f8c072f744f742d68137fcad4\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+216            android:name="com.squareup.picasso.PicassoProvider"
+216-->[com.squareup.picasso:picasso:2.71828] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\e037070f8c072f744f742d68137fcad4\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+217            android:authorities="com.efsoft.hangmedia.com.squareup.picasso"
+217-->[com.squareup.picasso:picasso:2.71828] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\e037070f8c072f744f742d68137fcad4\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+218            android:exported="false" />
+218-->[com.squareup.picasso:picasso:2.71828] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\e037070f8c072f744f742d68137fcad4\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+219
+220        <meta-data
+220-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:49:9-51:51
+221            android:name="onesignal_app_id"
+221-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:50:13-44
+222            android:value="f85276b0-1a2b-4efe-a3af-eecdc0929ad4" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+222-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:51:13-48
+223        <meta-data
+223-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:53:9-55:70
+224            android:name="onesignal_google_project_number"
+224-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:54:13-59
+225            android:value="str:REMOTE" />
+225-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:55:13-67
+226
+227        <receiver
+227-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:57:9-67:20
+228            android:name="com.onesignal.GcmBroadcastReceiver"
+228-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:58:13-62
+229            android:permission="com.google.android.c2dm.permission.SEND" >
+229-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:59:13-73
+230
+231            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+232            <intent-filter android:priority="999" >
+232-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:62:13-66:29
+232-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:62:28-50
+233                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+233-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:63:17-81
+233-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:63:25-78
+234
+235                <category android:name="com.efsoft.hangmedia" />
+235-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:65:17-61
+235-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:65:27-58
+236            </intent-filter>
+237        </receiver>
+238        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+238-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:68:9-77
+238-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:68:19-74
+239
+240        <service android:name="com.onesignal.GcmIntentService" />
+240-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:70:9-66
+240-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:70:18-63
+241        <service
+241-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:71:9-73:72
+242            android:name="com.onesignal.GcmIntentJobService"
+242-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:72:13-61
+243            android:permission="android.permission.BIND_JOB_SERVICE" />
+243-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:73:13-69
+244        <service
+244-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:74:9-76:72
+245            android:name="com.onesignal.RestoreJobService"
+245-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:75:13-59
+246            android:permission="android.permission.BIND_JOB_SERVICE" />
+246-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:76:13-69
+247        <service
+247-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:77:9-79:72
+248            android:name="com.onesignal.RestoreKickoffJobService"
+248-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:78:13-66
+249            android:permission="android.permission.BIND_JOB_SERVICE" />
+249-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:79:13-69
+250        <service
+250-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:80:9-82:43
+251            android:name="com.onesignal.SyncService"
+251-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:81:13-53
+252            android:stopWithTask="true" />
+252-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:82:13-40
+253        <service
+253-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:83:9-85:72
+254            android:name="com.onesignal.SyncJobService"
+254-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:84:13-56
+255            android:permission="android.permission.BIND_JOB_SERVICE" />
+255-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:85:13-69
+256
+257        <activity
+257-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:87:9-89:75
+258            android:name="com.onesignal.PermissionsActivity"
+258-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:88:13-61
+259            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+259-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:89:13-72
+260
+261        <service android:name="com.onesignal.NotificationRestoreService" />
+261-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:91:9-76
+261-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:91:18-73
+262
+263        <receiver android:name="com.onesignal.BootUpReceiver" >
+263-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:93:9-98:20
+263-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:93:19-62
+264            <intent-filter>
+264-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:94:13-97:29
+265                <action android:name="android.intent.action.BOOT_COMPLETED" />
+265-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:95:17-79
+265-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:95:25-76
+266                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+266-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:96:17-82
+266-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:96:25-79
+267            </intent-filter>
+268        </receiver>
+269        <receiver android:name="com.onesignal.UpgradeReceiver" >
+269-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:99:9-103:20
+269-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:99:19-63
+270            <intent-filter>
+270-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:100:13-102:29
+271                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+271-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:101:17-84
+271-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:101:25-81
+272            </intent-filter>
+273        </receiver>
+274        <!--
+275             FirebaseMessagingService performs security checks at runtime,
+276             but set to not exported to explicitly avoid allowing another app to call it.
+277        -->
+278        <service
+278-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+279            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+279-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+280            android:exported="false" >
+280-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+281            <intent-filter android:priority="-500" >
+281-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:13-33:29
+281-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:28-51
+282                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+282-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:17-78
+282-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\77b9a570cb1ca548d96adbd28882f129\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:25-75
+283            </intent-filter>
+284        </service>
+285        <service
+285-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:27:9-33:19
+286            android:name="com.google.firebase.components.ComponentDiscoveryService"
+286-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:28:13-84
+287            android:exported="false" >
+287-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:29:13-37
+288            <meta-data
+288-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:30:13-32:85
+289                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+289-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:31:17-139
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\32f1c91a6654b786d05af9a07d6eb9e9\jetified-play-services-measurement-api-17.0.0\AndroidManifest.xml:32:17-82
+291            <meta-data
+291-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+292                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+292-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+294        </service>
+295
+296        <receiver
+296-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+297            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+297-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+298            android:exported="true"
+298-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+299            android:permission="com.google.android.c2dm.permission.SEND" >
+299-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+300            <intent-filter>
+300-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\68dca06af5bd88a83ac6d10d0c929f5a\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+301                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+301-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:63:17-81
+301-->[com.onesignal:OneSignal:3.14.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d1d31234c3fb522ceed6bfb6f4346d03\jetified-OneSignal-3.14.0\AndroidManifest.xml:63:25-78
+302            </intent-filter>
+303        </receiver>
+304
+305        <activity
+305-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+306            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+306-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+307            android:exported="false"
+307-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+308            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+308-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+309
+310        <provider
+310-->[com.google.firebase:firebase-common:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\f2a43c27cf56c59c384edf75c3f4d072\jetified-firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+311            android:name="com.google.firebase.provider.FirebaseInitProvider"
+311-->[com.google.firebase:firebase-common:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\f2a43c27cf56c59c384edf75c3f4d072\jetified-firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+312            android:authorities="com.efsoft.hangmedia.firebaseinitprovider"
+312-->[com.google.firebase:firebase-common:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\f2a43c27cf56c59c384edf75c3f4d072\jetified-firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+313            android:exported="false"
+313-->[com.google.firebase:firebase-common:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\f2a43c27cf56c59c384edf75c3f4d072\jetified-firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+314            android:initOrder="100" />
+314-->[com.google.firebase:firebase-common:18.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\f2a43c27cf56c59c384edf75c3f4d072\jetified-firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+315
+316        <receiver
+316-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:29:9-33:20
+317            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+317-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:30:13-85
+318            android:enabled="true"
+318-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:31:13-35
+319            android:exported="false" >
+319-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:32:13-37
+320        </receiver>
+321        <receiver
+321-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:34:9-42:20
+322            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+322-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:35:13-100
+323            android:enabled="true"
+323-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:36:13-35
+324            android:exported="true"
+324-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:37:13-36
+325            android:permission="android.permission.INSTALL_PACKAGES" >
+325-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:38:13-69
+326            <intent-filter>
+326-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:39:13-41:29
+327                <action android:name="com.android.vending.INSTALL_REFERRER" />
+327-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:40:17-79
+327-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:40:25-76
+328            </intent-filter>
+329        </receiver>
+330
+331        <service
+331-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:44:9-47:40
+332            android:name="com.google.android.gms.measurement.AppMeasurementService"
+332-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:45:13-84
+333            android:enabled="true"
+333-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:46:13-35
+334            android:exported="false" />
+334-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:47:13-37
+335        <service
+335-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:48:9-52:72
+336            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+336-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:49:13-87
+337            android:enabled="true"
+337-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:50:13-35
+338            android:exported="false"
+338-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:51:13-37
+339            android:permission="android.permission.BIND_JOB_SERVICE" />
+339-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\6a80a6f8e126ebed9ab8cc1edcc21fb2\jetified-play-services-measurement-17.0.0\AndroidManifest.xml:52:13-69
+340
+341        <meta-data
+341-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+342            android:name="com.google.android.gms.version"
+342-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+343            android:value="@integer/google_play_services_version" />
+343-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\LENOVO REYZEN 3\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+344    </application>
+345
+346</manifest>

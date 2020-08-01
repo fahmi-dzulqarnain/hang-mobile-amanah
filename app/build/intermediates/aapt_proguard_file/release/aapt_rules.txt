@@ -1,0 +1,170 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.efsoft.hangmedia.SplashActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.AtkjListActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.AtkjSoundActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.CompanyProfileActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.DetailDonasiActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.HomeActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.JadwalShalatActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.Program2Activity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.ProgramHomeActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.ProgramScheduleActivity { <init>(); }
+-keep class com.efsoft.hangmedia.activity.WebViewActivity { <init>(); }
+-keep class com.efsoft.hangmedia.background.AlarmBroadcast { <init>(); }
+-keep class com.efsoft.hangmedia.background.ForegroundService { <init>(); }
+-keep class com.efsoft.hangmedia.background.HeadsetReceiver { <init>(); }
+-keep class com.efsoft.hangmedia.background.PrayTimeService { <init>(); }
+-keep class com.efsoft.hangmedia.background.TelephonyManagerReceiver { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.CategoryItemActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.MainActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.MoreActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.MyApplication { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.PlayListActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.SearchActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.SplashTvActivity { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.YoutubePlay { <init>(); }
+-keep class com.efsoft.hangmedia.hangtv.youtubeplaylist.YtPlayActivity { <init>(); }
+-keep class com.efsoft.hangmedia.notification.ActionReceiver { <init>(); }
+-keep class com.efsoft.hangmedia.notification.AlarmReceiver { <init>(); }
+-keep class com.efsoft.hangmedia.notification.AtkjNotifReceiver { <init>(); }
+-keep class com.efsoft.hangmedia.radio.RadioStreamActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.android.play.core.assetpacks.AssetPackExtractionService { <init>(); }
+-keep class com.google.android.play.core.common.PlayCoreDialogWrapperActivity { <init>(); }
+-keep class com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.onesignal.BootUpReceiver { <init>(); }
+-keep class com.onesignal.GcmBroadcastReceiver { <init>(); }
+-keep class com.onesignal.GcmIntentJobService { <init>(); }
+-keep class com.onesignal.GcmIntentService { <init>(); }
+-keep class com.onesignal.NotificationOpenedReceiver { <init>(); }
+-keep class com.onesignal.NotificationRestoreService { <init>(); }
+-keep class com.onesignal.PermissionsActivity { <init>(); }
+-keep class com.onesignal.RestoreJobService { <init>(); }
+-keep class com.onesignal.RestoreKickoffJobService { <init>(); }
+-keep class com.onesignal.SyncJobService { <init>(); }
+-keep class com.onesignal.SyncService { <init>(); }
+-keep class com.onesignal.UpgradeReceiver { <init>(); }
+-keep class com.squareup.picasso.PicassoProvider { <init>(); }
+-keep class pub.devrel.easypermissions.AppSettingsDialogHolderActivity { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.ContentLoadingProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.efsoft.hangmedia.NoSwipeableViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.efsoft.hangmedia.hangtv.util.EnchantedViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.efsoft.hangmedia.hangtv.util.StatusBarView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.efsoft.hangmedia.image_slider.SliderView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.DefaultTimeBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.TrackSelectionView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.navigation.NavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textview.MaterialTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.youtube.player.YouTubePlayerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class me.relex.circleindicator.CircleIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+

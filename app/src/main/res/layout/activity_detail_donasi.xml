@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailDonasiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#2E7D32"/>
+
+    <RelativeLayout
+        android:id="@+id/toobarDonasi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#2E7D32">
+
+        <TextView
+            android:id="@+id/txtInfaqShadaqah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/investasikan_harta"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtKeteranganInfaq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/investasikan_harta_desc"
+            android:layout_below="@id/txtInfaqShadaqah"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="32dp"
+            android:lineSpacingExtra="3dp"
+            android:textColor="#fff"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/donate_ilustration"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="24dp"/>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeRekening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toobarDonasi"
+        android:paddingBottom="24dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeBni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp">
+
+            <ImageView
+                android:id="@+id/imgBni"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bni_syariah_icon"
+                android:scaleType="fitStart"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/txtAtasNama1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pt_radio_hang"
+                android:layout_toEndOf="@id/imgBni"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:layout_marginStart="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rekening_bni_syariah"
+                android:layout_toEndOf="@id/imgBni"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginStart="7dp"
+                android:layout_below="@id/txtAtasNama1"/>
+
+            <Button
+                android:id="@+id/btnSalinBni"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:text="@string/salin"
+                android:textSize="13sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:background="@drawable/roundrectangle"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_below="@id/relativeBni">
+
+            <ImageView
+                android:id="@+id/imgMandiri"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:src="@drawable/mandiri_syariah_icon"
+                android:scaleType="fitStart"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/txtAtasNama2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pt_radio_hang"
+                android:layout_toEndOf="@id/imgMandiri"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:layout_marginStart="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rekening_mandiri_syariah"
+                android:layout_toEndOf="@id/imgMandiri"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginStart="7dp"
+                android:layout_below="@id/txtAtasNama2"/>
+
+            <Button
+                android:id="@+id/btnSalinMandiri"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:text="@string/salin"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:background="@drawable/roundrectangle"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeDonasiUntuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeRekening"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDonasiUntukTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/donasi_utk_title"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/circlemenu"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/txtPeruntukanDonasi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/peruntukan_donasi_1"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/circlemenu"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txtPeruntukanDonasi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/peruntukan_donasi_2"
+                android:layout_centerVertical="true"
+                android:lineSpacingExtra="3dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/circlemenu"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/txtPeruntukanDonasi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/peruntukan_donasi_3"
+                android:layout_centerVertical="true"
+                android:lineSpacingExtra="3dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/relativeDonasiUntuk"
+        android:layout_marginTop="24dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.efsoft.hangmedia.image_slider.SliderView
+                android:id="@+id/sliderViewDonasi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/galleryContainerDonasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

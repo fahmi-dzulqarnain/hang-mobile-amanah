@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_go_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/menu_go_category"
+            android:checked="false"
+            android:icon="@drawable/ic_category"
+            android:title="@string/menu_category" />
+
+        <item
+            android:id="@+id/menu_go_latest"
+            android:checked="false"
+            android:icon="@drawable/ic_latest"
+            android:title="@string/menu_latest" />
+        <item
+            android:id="@+id/menu_go_video"
+            android:checked="false"
+            android:icon="@drawable/ic_video"
+            android:title="@string/menu_video" />
+
+        <item
+            android:id="@+id/menu_go_favourite"
+            android:checked="false"
+            android:icon="@drawable/ic_favorites"
+            android:title="@string/menu_favourite" />
+
+    </group>
+
+</menu>

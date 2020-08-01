@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1038422008591-63lo51hgtco3r75kevf5o5oism47rooi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hangmediaapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1038422008591</string>
+    <string name="google_api_key" translatable="false">AIzaSyBKKEuy40sf4G6sxntKVcLvGhkTQ8UL8hU</string>
+    <string name="google_app_id" translatable="false">1:1038422008591:android:943f5b058b9af04812947a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBKKEuy40sf4G6sxntKVcLvGhkTQ8UL8hU</string>
+    <string name="google_storage_bucket" translatable="false">hangmediaapp.appspot.com</string>
+    <string name="project_id" translatable="false">hangmediaapp</string>
+</resources>

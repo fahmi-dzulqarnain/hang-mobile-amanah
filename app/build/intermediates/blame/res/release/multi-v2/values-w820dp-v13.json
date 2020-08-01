@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "12,13,14,10,9,17,15,6,4,5,3,2,8,7,1,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "516,574,630,472,428,764,673,274,164,220,115,59,381,333,16,715",
+                        "endColumns": "57,55,42,42,43,57,41,58,55,53,48,55,46,47,42,48",
+                        "endOffsets": "569,625,668,510,467,817,710,328,215,269,159,110,423,376,54,759"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,212,255,299,357,399,458,514,568,617,673,720,768,811",
+                        "endColumns": "57,55,42,42,43,57,41,58,55,53,48,55,46,47,42,48",
+                        "endOffsets": "108,164,207,250,294,352,394,453,509,563,612,668,715,763,806,855"
+                    }
+                }
+            ]
+        }
+    ]
+}

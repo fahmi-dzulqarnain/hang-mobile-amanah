@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038422008591",
+    "firebase_url": "https://hangmediaapp.firebaseio.com",
+    "project_id": "hangmediaapp",
+    "storage_bucket": "hangmediaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038422008591:android:943f5b058b9af04812947a",
+        "android_client_info": {
+          "package_name": "com.efsoft.hangmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038422008591-63lo51hgtco3r75kevf5o5oism47rooi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKKEuy40sf4G6sxntKVcLvGhkTQ8UL8hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038422008591-63lo51hgtco3r75kevf5o5oism47rooi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

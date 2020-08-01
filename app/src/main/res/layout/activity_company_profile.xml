@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CompanyProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:src="@drawable/studio_3"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:src="@drawable/rectangleprofile"/>
+
+                <TextView
+                    android:id="@+id/txtProfileTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_title_1"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="50dp"
+                    android:textSize="28sp"
+                    android:textColor="#fff"/>
+
+                <TextView
+                    android:id="@+id/txtProfileTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_title_2"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="50dp"
+                    android:textSize="28sp"
+                    android:textColor="#4CAF50"
+                    android:layout_below="@id/txtProfileTitle1"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"
+                    android:src="@drawable/rectanglegrey"
+                    android:layout_below="@id/txtProfileTitle2"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeProfile1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2c3e50"
+                android:layout_marginTop="-10dp"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingBottom="32dp"
+                android:layout_below="@id/relative1">
+
+                <TextView
+                    android:id="@+id/txtContent1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:text="@string/profile_content"/>
+
+                <TextView
+                    android:id="@+id/txtProfileClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/continue_reading"
+                    android:textSize="15sp"
+                    android:textColor="#81D4FA"
+                    android:layout_below="@id/txtContent1"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtContent2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtContent1"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/profile_content_2"
+                    android:textColor="#fff"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgRectangleGreen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/relativeProfile1"
+                android:src="@drawable/rectanglegreen"/>
+
+            <ImageView
+                android:id="@+id/imgTriangleGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imgRectangleGreen"
+                app:srcCompat="@drawable/triangleprofile"/>
+
+            <TextView
+                android:id="@+id/txtHangMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hang_media"
+                android:textColor="#C0392B"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imgTriangleGreen"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgHangLogoProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hang_fm_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txtHangMedia"/>
+
+            <TextView
+                android:id="@+id/txtMediaDakwahIslam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/media_dakwah_islam"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:layout_below="@id/imgHangLogoProfile"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtGaleri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/galeri"
+                android:textColor="#C0392B"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtMediaDakwahIslam"
+                android:layout_marginTop="40dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/txtGaleri"
+                android:layout_marginTop="30dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.efsoft.hangmedia.image_slider.SliderView
+                        android:id="@+id/sliderView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/galleryContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgTriangleWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trianglewhite"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtGaleri"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

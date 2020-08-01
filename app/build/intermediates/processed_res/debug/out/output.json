@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.efsoft.hangmedia",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 27,
+        "versionName": "3.3",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.efsoft.hangmedia",
+        "split": "",
+        "minSdkVersion": "19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hang Mobile</string>
+
+    <string name="title_1">Hang 106 FM</string>
+
+    <string name="connection_error_dialog_title">Koneksi Terputus</string>
+    <string name="radio_offline">Radio sedang tidak aktif</string>
+    <string name="resume">Sentuh untuk memulai.</string>
+    <string name="resume_en">Touch to play.</string>
+    <string name="connection_error_dialog_message">Tidak ada koneksi. Mohon periksa koneksi internet Anda dan coba lagi.</string>
+    <string name="connection_error_dialog_button">Coba Lagi</string>
+
+    <string name="welcome_small">Sentuh untuk memulai</string>
+    <string name="welcome_small_en">Touch to play</string>
+
+    <string name="radio_name">Hang 106 FM</string>
+    <string name="radio_location">Sentuh untuk menghentikan / memulai kembali</string>
+    <string name="radio_location_en">Touch to stop or replay</string>
+
+    <string name="radio_url">http://46.235.224.203:8000/listen.mp3</string>
+
+    <string name="share_url">https://play.google.com/store/apps/details?id=com.efsoft.hangmedia</string>
+
+    <string name="autostart_true_or_false">false</string>
+    <string name="internet_tidak_tersedia">Internet tidak tersedia</string>
+    <string name="oke">Mengerti</string>
+    <string name="noInternet">Fitur yang Anda akses memerlukan koneksi data Internet yang aktif. Silakan aktifkan koneksi data Anda atau sambungkan smartphone via Wi-Fi.</string>
+
+    <string name="hadith1">Dan tidaklah Allah menambahkan kepada seorang hamba sifat pemaaf melainkan akan semakin memuliakan dirinya</string>
+    <string name="version_name">Versi Amanah</string>
+    <string name="version">3.3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="loading">Loading..</string>
+
+    <!--left navigation drawer-->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_category">Kategori</string>
+    <string name="menu_latest">Terbaru</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_favourite">Favorit</string>
+    <string name="menu_about">Tentang Kami</string>
+    <string name="menu_search">Cari</string>
+    <string name="menu_logout">Keluar</string>
+
+    <string name="menu_home_en">Home</string>
+    <string name="menu_category_en">Category</string>
+    <string name="menu_latest_en">Latest</string>
+    <string name="menu_video_en">Video</string>
+    <string name="menu_favourite_en">Favourite</string>
+    <string name="menu_about_en">About Us</string>
+    <string name="menu_search_en">Search</string>
+    <string name="menu_logout_en">Logout</string>
+
+    <string name="no_item_found">Tidak ditemukan</string>
+
+    <string name="company">Company</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+
+    <string name="dialog_error">Error..</string>
+    <string name="restart_msg">Ada sesuatu yang salah. Silakan mulai ulang aplikasi Anda, atau hubungi kami</string>
+    <string name="license_msg">You are using invalid License or Package name is already in use</string>
+    <string name="dialog_ok">OK</string>
+
+    <!-- connection message -->
+    <string name="conne_msg1">Tidak ada koneksi internet</string>
+    <string name="conne_msg2">Please connect to working Internet connection</string>
+    <string name="nodata">Tidak ada data ditemukan</string>
+    <string name="no_fav">Tidak ada favorit</string>
+    <string name="update">Perbarui</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+
+    <string name="login_msg">You need to login first</string>
+
+    <string name="favourite_add">Telah disimpan ke Favorit</string>
+    <string name="favourite_remove">Telah dihapus dari Favorit</string>
+
+    <string name="home_cat">Kategori</string>
+    <string name="featured">Featured Playlist</string>
+    <string name="video_home">Video Terbaru</string>
+    <string name="more">Lihat Semua</string>
+
+    <string name="text_no_item">No item available.</string>
+    <string name="tag_line">Video Dakwah Islam</string>
+
+    <string name="privacy_gdpr_url">http://apptific.com/PlayStore/Privacy-Policy.html</string>
+
+    <string name="exit">Exit</string>
+    <string name="exit_msg">Are You Sure You Want To Quit?</string>
+
+    <!-- if you want to RTL then put it true other wise it false-->
+    <string name="isRTL">false</string>
+
+    <string name="default_notification_channel_id">HangTV</string>
+
+    <!-- youtube api key -->
+    <string name="youtube_api_key">AIzaSyDyKZNn4ZcLoW3BelWZSvj_tI-WNBouiZU</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="hang_title">Hang Mobile</string>
+    <string name="hang_tv">Hang TV</string>
+    <string name="hang_tv_description">Galeri Video Hang TV</string>
+    <string name="hang_106_fm">Hang 106 FM</string>
+    <string name="hang_fm_description">Streaming Radio</string>
+    <string name="hang_artikel">Hang Artikel</string>
+    <string name="hang_artikel_description">Kumpulan Artikel Islam</string>
+    <string name="jadwal_shalat">Jadwal Shalat</string>
+    <string name="jadwal_shalat_description">Tepat waktu dalam beribadah</string>
+    <string name="atkj_file">ATKJ</string>
+    <string name="atkj_file_description">Anda Tanya Kami Jawab</string>
+    <string name="profile">Profil</string>
+    <string name="profile_description">Profil Hang Media</string>
+    <string name="donasi">Donasi</string>
+    <string name="donasi_description">Salurkan Donasi Terbaik Anda</string>
+    <string name="timetable">Jadwal Program</string>
+    <string name="timetable_desctiption">Jadwal Program Hang Media</string>
+    <string name="choose_schedule">Pilih Jadwal</string>
+    <string name="choose_schedule_content">Jadwal Program Hang Media yang ditampilkan menggunakan zona Waktu Indonesia Barat</string>
+    <string name="ikuti_kami_di">Ikuti kami di:</string>
+    <string name="memiliki_masalah_saran_untuk_aplikasi">Memiliki masalah / saran untuk Aplikasi?</string>
+    <string name="location_permission">Lokasi Anda tidak Terdeteksi. Waktu Jadwal Shalat default adalah Kota Batam, untuk mengganti silakan tekan tombol tambah lokasi. Anda mungkin diminta untuk mengaktifkan lokasi</string>
+
+    <string name="default_location">Lokasi Default</string>
+    <string name="splash_adverb">Mohon Tunggu Sejenak, Membuka Menu Hang TV…</string>
+    <string name="call_us">Hubungi kami via WhatsApp (Hanya melayani masalah aplikasi)</string>
+    <string name="ubah_bahasa">Change Language / Ubah Bahasa</string>
+
+    <string name="no_schedule">Tidak ada jadwal pada program ini</string>
+
+    <string name="update_tv">Mohon Update</string>
+    <string name="update_tv_content">Mohon Maaf, ada perubahan pada server. Anda harus memperbarui aplikasi apabila ada versi terbaru agar dapat tetap terhubung</string>
+    <string name="turn_on">Notifikasi</string>
+    <string name="turn_off">Notifikasi</string>
+
+    <!--Bahasa Inggris-->
+    <string name="hang_tv_description_en">Hang TV Video Gallery</string>
+    <string name="hang_fm_description_en">Hang FM Radio Streaming</string>
+    <string name="hang_artikel_en">Hang Articles</string>
+    <string name="hang_artikel_description_en">Islamic and Sharia Articles</string>
+    <string name="atkj_wa_description_en">Question for ATKJ Program</string>
+    <string name="jadwal_shalat_en">Salat Times</string>
+    <string name="jadwal_shalat_description_en">Let\'s Pray On Time</string>
+    <string name="whatsapp_atkj_en">ATKJ WhatsApp</string>
+    <string name="atkj_file_en">ATKJ</string>
+    <string name="atkj_file_description_en">Anda Tanya Kami Jawab</string>
+    <string name="profile_en">Profile</string>
+    <string name="profile_description_en">Hang Media Profile</string>
+    <string name="donasi_en">Donate</string>
+    <string name="donasi_description_en">Give your Best Donations</string>
+    <string name="timetable_en">Schedules</string>
+    <string name="timetable_desctiption_en">Hang Media Program Schedules</string>
+    <string name="choose_schedule_en">Choose Program</string>
+    <string name="ikuti_kami_di_en">Follow Us On:</string>
+    <string name="memiliki_masalah_saran_untuk_aplikasi_en">Have Problem or Advice for Us?</string>
+    <string name="location_permission_en">Default prayer time is for Batam City, Indonesia, for changing location press add location button. You will be requested for location permission</string>
+
+    <string name="default_location_en">Defaul Location</string>
+    <string name="splash_adverb_en">Please wait for seconds, Opening Hang TV…</string>
+    <string name="call_us_en">Chat Us via WhatsApp (Only serve for App Problem)</string>
+
+    <string name="connection_error_dialog_title_en">Disconnected from Network</string>
+    <string name="radio_offline_en">Radio isn\'t active</string>
+    <string name="connection_error_dialog_message_en">No Connection. Please check your connection, and try again.</string>
+    <string name="connection_error_dialog_button_en">Try Again</string>
+
+    <string name="no_schedule_en">Program\'s Schedule doesn\'t exists</string>
+
+    <string name="internet_tidak_tersedia_en">No Internet Connection</string>
+    <string name="oke_en">Got It</string>
+    <string name="noInternet_en">We are sorry, this feature is need an internet connection. Connect your Mobile Data or Wi-Fi.</string>
+
+    <string name="donate_detail">Radio Hang FM merupakan pelopor dakwah sunnah tertua di Indonesia yang telah berjalan sejak pertengahan Juni 2005,
+            jangkauan siarannya mencakup sebahagian wilayah Kepulauan Riau, Singapura, dan Johor Malaysia. Radio Hang FM Batam sebagai wasilah dakwah
+            memiliki komitmen besar terhadap tersebarnya dakwah sunnah di Nusantara. \n\nDemi lancarnya keberlangsungan media ini tentu tidak lepas dari keperluan dana
+            operasional. Dengan memohon kepada Allahu Subhana wa Ta\'ala, kami mengetuk hati dan mengajak kaum muslimin pendengar Radio Hang FM dimana saja berada, ikut
+            berperan serta memberikan dukungan dalam bentuk donasi dana.
+            \n\nSetiap kebaikan yang didapatkan melalui Radio Hang FM, in syaa Allah pahalanya akan ikut mengalir kepada para muhsinin.
+            Jazaakumullahu Khoiran Katsiran, \n\nPartisipasi berupa donasi dana dapat disalurkan melalui rekening:</string>
+    <string name="donate_detail_2">Atau bisa juga diantarkan ke Office Radio Hang Batam di Gedung Indonesia Emporium Hall D Batam Centre, Kota Batam, Indonesia
+            \nUntuk Konfirmasi:</string>
+
+    <string name="donate_detail_en">Hang FM Radio is the pioneer of the oldest Sunnah Da\'wah in Indonesia which has been running since June 2005,
+            Hang FM Radio\'s range covers Riau Islands Province, Singapore and Johor Malaysia. Hang FM Radio Batam as a da\'wah media
+            has a great commitment to spread Sunnah in Nusantara. \n\nFor continuity, its can\'t be separated from the need for funds
+            operational. By asking Allahu Subhana wa Ta\'ala, we invite all of Muslims and Hang FM Radio\'s audience everywhere in the world to join us
+            for take a participation in providing support of donations.
+            \n\nEvery kindness that gained through Hang FM Radio, the reward (ajr) will be gained for all of muhsinin Inshaa Allah.
+            Jazaakumullahu Khoiran Katsiran, \n\nParticipation of donations can be deliver via bank accounts:</string>
+    <string name="donate_detail_2_en">Or you can deliver it to Hang Radio Office Batam in Gedung Indonesia Emporium Hall D Batam Centre, Batam City, Indonesia
+            \nFor Confirmation:</string>
+
+    <string name="donate_dialog_title">Investasikan Harta Anda untuk Akhirat yang lebih baik</string>
+    <string name="continue_reading">lanjutkan membaca</string>
+    <string name="donate_yes">Saya Tertarik</string>
+    <string name="donate_no">Nanti Dulu</string>
+
+    <string name="donate_dialog_title_en">Invest your wealth for better Akhirah</string>
+    <string name="continue_reading_en">continue reading</string>
+    <string name="donate_yes_en">I have interested</string>
+    <string name="donate_no_en">Maybe Later</string>
+
+    <string name="donate_dialog">Radio Hang FM merupakan pelopor dakwah sunnah tertua di Indonesia yang telah berjalan sejak pertengahan Juni 2005,
+            jangkauan siarannya mencakup sebahagian wilayah Kepulauan Riau, Singapura, dan Johor Malaysia…</string>
+    <string name="infaqkan_harta_anda">Ayo Infaqkan Harta Anda</string>
+
+    <string name="donate_dialog_en">Hang FM Radio is the pioneer of the oldest Sunnah Da\'wah in Indonesia which has been running since June 2005,
+            Hang FM Radio\'s range covers Riau Islands Province, Singapore and Johor Malaysia…</string>
+    <string name="infaqkan_harta_anda_en">Let\'s Donate</string>
+    <string name="_00_00">00:00</string>
+
+    <string name="profile_content">
+        Segala Puji Bagi Allah Subhanahu Wata\'aala, kita memohon perlindungan, dan memohon ampunan hanya kepadanya.
+        Shalawat dan salam kepada Nabi Muhammad, kepada keluarga, dan para sahabatnya.\n\n
+        Radio Hang FM Batam berdiri tanggal 17 januari 2002 pada frekuensi 106 MHz. Awalnya sebagai sarana hiburan bernuansa melayu.
+        Sebutan HANG terinspirasi dari nama sapaan pahlawan (panglima) melayu yang kala itu masyhur di Semenanjung (Riau, Singapore dan Malaysia).
+        Nama Hang dipilih karena kalimatnya singkat dan mudah diingat.\n\nPada pertengahan 2004 Radio Hang FM merubah format siaran radio dari hiburan (komersial) menjadi radio Dakwah Islam (non komersial), saat itu dakwahnya masih
+        bersifat umum (bercampur). Setahun kemudian, mulai fokus pada dakwah sunnah (berdasarkan pemahaman para Shahabat Rasulullah Shallallahu Alaihi Wasallam)
+        dengan Tagline Hang Media Dakwah Islam siaran 24 jam non stop. </string>
+
+    <string name="profile_content_2">Hang Media sebagai pelopor media dakwah sunnah tertua di Indonesia (saat itu di Indonesia belum ada media radio yang bermanhaj salaf). Jangkauan siarannya mencakup
+        sebahagian wilayah Kepulauan Riau, Singapura dan Johor Malaysia. Sejalan dengan adanya fasilitas internet, Hang FM dapat disimak di seluruh dunia melalui Streaming via Aplikasi Hang Mobile,
+        Tune In, dan Radio Garden.\n\n
+
+        Letak geografis Batam yang bersebelahan dengan Singapore dan Johor (Malaysia) sangat strategis dan berpotensi positif dalam pengembangan dakwah islam serumpun (berbahasa Melayu).
+        Hang FM yang awal tampilnya sebagai media audio, saat ini juga telah memiliki media visual berbentuk TV Streaming yang sejalan dengan program radio,
+        In Syaa Allah akan terus berupaya memberikan layanan yang terbaik.\n\n
+
+        Program Hang TV streaming meliputi liputan program dauroh Hang Mengaji yang dilakukan secara reguler, liputan siaran program harian seperti Berkah Pagi,
+        Mutiara Dhuha, ATKJ (Anda Tanya Kami Jawab), Menyapa Senja dan Kajian Live Ba\'da Maghrib relay dari Mushalla Al Ikhlaash. In Syaa Allah kedepannya Hang TV
+        Streaming akan terus memperbaiki kualitas siaran dan memperbanyak konten siaran, juga menuju ke TV Digital\n\n
+
+        Untuk memudahkan pendengar/pemirsa Hang dalam menikmati layanan kami, Hang Media menyediakan aplikasi Hang Mobile yg saat ini sudah dapat diunduh melalui play store dan
+        akan terus di tingkatkan berbagai fiturnya.\n\n
+
+        Lancarnya keberlangsungan dakwah di Hang Media ini tentu tidak lepas dari sokongan para muhsinin (pendengar dan pemirsa). Dengan memohon kepada Allahu Subhana
+        wa Ta\'ala, kami mengajak kaum muslimin dan muslimat pendengar dan pemirsa Hang dimana saja berada, ikut berperan serta mempertahankan keberlangsungan dakwah Islam.
+        Setiap kebaikan dan hidayah yang didapatkan melalui HangMedia, In Syaa Allah pahalanya juga akan mengalir kepada muhsinin </string>
+
+    <string name="profile_title_1">\"Menyebarkan Dakwah\" Sesuai</string>
+    <string name="profile_title_2">Al-Quran dan Sunnah.</string>
+    <string name="hang_media">HANG MEDIA</string>
+    <string name="galeri">GALERI</string>
+    <string name="media_dakwah_islam">\"Media Dakwah Islam\"</string>
+    <string name="live_stream_info">Tekan untuk membuka Siaran Live (Hanya tersedia saat Program Live, tidak 24 jam)</string>
+    <string name="live_stream_info_en">Click to open Live Program (Only available based on Hang TV Live Program, not all time)</string>
+    <string name="_00">00</string>
+    <string name="jadwal_program">Jadwal Program</string>
+
+    <string name="investasikan_harta">Ayo Investasikan Harta Anda</string>
+    <string name="investasikan_harta_desc">Infaq dan Sedekah Anda akan disalurkan melalui Hang Media</string>
+    <string name="rekening_bni_syariah">6060 111 106</string>
+    <string name="pt_radio_hang">PT Radio Media Hang Batam</string>
+    <string name="salin">Salin</string>
+    <string name="rekening_mandiri_syariah">7999 966 106</string>
+    <string name="donasi_utk_title">Infaq dan Sedekah Anda\nakan digunakan untuk</string>
+    <string name="peruntukan_donasi_1">Operasional Mushalla Al-Ikhlaash Hang Media</string>
+    <string name="peruntukan_donasi_2">Operasional Media Dakwah Hang FM \ndan Hang TV</string>
+    <string name="peruntukan_donasi_3">Kegiatan Sosial Yayasan Hang Media Islam (Nasi Jum\'at / Sijum, Ifthar Puasa Senin Kamis, Donor Darah, dan Lainnya</string>
+
+    <string name="investasikan_harta_en">Let\'s Invest your Wealth</string>
+    <string name="investasikan_harta_desc_en">Your Infaq and Shadaqah will be distibuted by Hang Media</string>
+    <string name="salin_en">Copy</string>
+    <string name="copied">Copied</string>
+    <string name="donasi_utk_title_en">Your Infaq and Shadaqah will be Used for</string>
+    <string name="peruntukan_donasi_1_en">Mushalla Al-Ikhlaash (Hang Media\'s Mushalla) Operational</string>
+    <string name="peruntukan_donasi_2_en">Da\'wah Media Operational (Hang FM \nand Hang TV)</string>
+    <string name="peruntukan_donasi_3_en">Social Activities of Yayasan Hang Media Islam (Jum\'ah Food / Sijum, Monday and Thursday Iftar, Blood Donation, etc.</string>
+    <string name="ahlan_wa_sahlan">Ahlan Wa Sahlan!</string>
+    <string name="manual_location">Lokasi Manual</string>
+
+</resources>

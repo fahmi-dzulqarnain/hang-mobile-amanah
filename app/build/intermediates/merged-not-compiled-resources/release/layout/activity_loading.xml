@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.efsoft.hangmedia.SplashActivity"
+    android:background="#1d1d1d">
+
+    <!--ImageView
+        android:layout_width="650dp"
+        android:layout_height="900dp"
+        android:src="@drawable/loading_screen_grad"
+        android:rotation="20"
+        android:layout_marginStart="-150dp"
+        android:layout_marginTop="-50dp"/-->
+
+    <!--ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/screen_background"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rectangletransparent"/-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hangmobile_logo_png"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtHangLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version_name"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgLogo"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtVersionLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textSize="13sp"
+        android:textColor="#fff"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"/>
+
+</FrameLayout>

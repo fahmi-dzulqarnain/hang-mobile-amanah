@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="16dp"
+    app:cardCornerRadius="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="25dp"
+            android:paddingBottom="24dp">
+
+                <ImageView
+                    android:id="@+id/imgDonateIll"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/donate_illustration"/>
+
+                <TextView
+                    android:id="@+id/txtDonateTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/donate_dialog_title"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#222"
+                    android:textSize="17sp"
+                    android:layout_below="@id/imgDonateIll"/>
+
+                <TextView
+                    android:id="@+id/txtDonateDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtDonateTitle"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#222"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/donate_dialog"/>
+
+                <TextView
+                    android:id="@+id/txtLanjutkan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtDonateDesc"
+                    android:textColor="#3F51B5"
+                    android:layout_marginEnd="10dp"
+                    android:textStyle="italic"
+                    android:text="@string/continue_reading"/>
+
+                <Button
+                    android:id="@+id/btnYesDonate"
+                    android:background="#2196F3"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/donate_yes"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@id/txtDonateDesc"
+                    style="?android:attr/borderlessButtonStyle"/>
+
+                <Button
+                    android:id="@+id/btnNoDonate"
+                    android:background="#2196F3"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/donate_no"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@id/txtDonateDesc"
+                    android:layout_toStartOf="@id/btnYesDonate"
+                    style="?android:attr/borderlessButtonStyle"/>
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

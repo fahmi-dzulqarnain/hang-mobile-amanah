@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#184E1A</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#94b233</color>
+
+    <color name="background">#E4E4E4</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#424242 </color>
+    <color name="orange">#FD682E</color>
+    <color name="light_black">#626262</color>
+    <color name="light_white">#ebebeb</color>
+
+    <color name="line_home">#FD682E</color>
+
+    <color name="select_dot">#FA4727</color>
+    <color name="non_select_dot">#A5A5A5</color>
+
+    <color name="about_title">#424242</color>
+    <color name="about_text">#8b8b8b</color>
+
+    <color name="navigation_default">#424242</color>
+    <color name="navigation_checked">#e62118</color>
+
+    <color name="dialog_color">#a2cc19</color>
+    <color name="dialog_text">#353535</color>
+    <color name="dialog_white_text">#FFFFFF</color>
+
+    <item name="main_color" type="color">#fdfdfe</item>
+    <item name="track_title_start" type="color">#7b000000</item>
+    <item name="colorSecondary" type="color">#000000</item>
+    <color name="original_back">#F3F3F3</color>
+
+    <color name="tabindicatorcolor">#D4E157</color>
+
+</resources>

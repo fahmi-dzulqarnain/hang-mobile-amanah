@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".activity.Program2Activity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProgram2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/imgNoProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/no_program_icon"/>
+
+        <TextView
+            android:id="@+id/txtNoJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_schedule"
+            android:layout_below="@id/imgNoProgram"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#2E7D32"/>
+
+    <RelativeLayout
+        android:id="@+id/toolbarIdProgram2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2E7D32">
+
+        <TextView
+            android:id="@+id/txtNamaProgram2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Program"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

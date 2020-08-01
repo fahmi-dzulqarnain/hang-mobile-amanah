@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgProgram2"
+                            android:layout_width="match_parent"
+                            android:layout_height="173dp"
+                            android:src="@drawable/image_loading"
+                            android:scaleType="centerCrop"/>
+
+                        <RelativeLayout
+                            android:id="@+id/relativePembahasanProgram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/imgProgram2"
+                            android:paddingTop="12dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:background="#E0F2F1">
+
+                                <ImageView
+                                    android:id="@+id/imgTema"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    app:srcCompat="@drawable/ic_tema_program"/>
+
+                                <TextView
+                                    android:id="@+id/txtPembahasanProgram"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kitab Riyadhus Shalihin"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold"
+                                    android:layout_toEndOf="@id/imgTema"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_marginBottom="10dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relativeUstadzProgram"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/relativePembahasanProgram"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="10dp">
+
+                                <ImageView
+                                    android:id="@+id/imgUstadz"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    app:srcCompat="@drawable/ic_ustadz_program"/>
+
+                                <TextView
+                                    android:id="@+id/txtUstadzProgram"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ustadz Abduh Arrasyad, BA"
+                                    android:layout_toEndOf="@id/imgUstadz"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/relativeUstadzProgram"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="12dp">
+
+                                <ImageView
+                                    android:id="@+id/imgLive"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    app:srcCompat="@drawable/ic_jam_program"/>
+
+                                <TextView
+                                    android:id="@+id/txtJamProgram"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Senin Pukul Ba'da Maghrib"
+                                    android:layout_toEndOf="@id/imgLive"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"/>
+
+                        </RelativeLayout>
+
+                </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</FrameLayout>

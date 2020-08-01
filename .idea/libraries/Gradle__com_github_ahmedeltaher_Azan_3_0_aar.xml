@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ahmedeltaher:Azan:3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/939d98dabd7b9aebd91cbb897e85b08f/jetified-Azan-3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/939d98dabd7b9aebd91cbb897e85b08f/jetified-Azan-3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/939d98dabd7b9aebd91cbb897e85b08f/jetified-Azan-3.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ahmedeltaher/Azan/3.0/f326834df7a47bf05c1f2083666bb4a2ae13e0fd/Azan-3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ahmedeltaher/Azan/3.0/f161f567349af52dea27c652fa6822691ba23adc/Azan-3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

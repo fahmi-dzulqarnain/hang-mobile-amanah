@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProgramHomeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProgramHome"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbarIdProgramHome"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#2E7D32"/>
+
+    <RelativeLayout
+        android:id="@+id/toolbarIdProgramHome"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#2E7D32">
+
+        <TextView
+            android:id="@+id/txtPilihProgramHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_schedule"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="190dp"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtKeteranganProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_schedule_content"
+            android:layout_below="@id/txtPilihProgramHome"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="20dp"
+            android:lineSpacingExtra="1dp"
+            android:textColor="#fff"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/schedule_ilustration"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

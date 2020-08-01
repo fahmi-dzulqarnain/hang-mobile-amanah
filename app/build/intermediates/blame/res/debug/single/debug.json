@@ -1,0 +1,746 @@
+[
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_without_internet.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\without_internet.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottomleftroundrectangle.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\bottomleftroundrectangle.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v11_ic_stat_transmission4.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-xxhdpi-v11\\ic_stat_transmission4.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v11_ic_stat_transmission4.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_stat_transmission4.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ab_email.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ab_email.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p_kajian_bada_maghrib.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\p_kajian_bada_maghrib.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\font_montserratsemibold.ttf.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\font\\montserratsemibold.ttf"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\anim\\enter.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favourite_1.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_favourite_1.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_program_schedule.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_program_schedule.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ab_user.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ab_user.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bni_syariah_icon.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\bni_syariah_icon.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_location.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_add_location.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ig_icon.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ig_icon.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trianglewhite.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\trianglewhite.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_no_stream.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_no_stream.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_volume_muted_light.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\volume_muted_light.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_gradient_2.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\splash_gradient_2.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p_risalah_malam.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\p_risalah_malam.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_live.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_live.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program_schedule.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_program_schedule.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circlemenu.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\circlemenu.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_gradient.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\splash_gradient.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectanglegreen.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rectanglegreen.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_radio_stream.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_radio_stream.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_start.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_start.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\tv_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program_home.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_program_home.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maghrib_background.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\maghrib_background.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_last_dialog_touched.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\last_dialog_touched.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_background_circle.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\app_background_circle.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_time.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_time.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_donasi.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_detail_donasi.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_kamis.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_kamis.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item_playlist.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_item_playlist.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_senin.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_senin.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_ic_launcher.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\mipmap\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangletransparentpray.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rectangletransparentpray.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ab_version.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ab_version.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ab_call.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ab_call.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_program_1.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_program_1.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_volume_muted.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\volume_muted.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v11_ic_stat_transmission4.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-xxxhdpi-v11\\ic_stat_transmission4.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v11_ic_stat_transmission4.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-mdpi-v11\\ic_stat_transmission4.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_hang_mobile_black_landscape.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\logo_hang_mobile_black_landscape.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_progressbar.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\layout_progressbar.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_last_dialog.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\last_dialog.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_yt_play.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_yt_play.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schedule_ilustration.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\schedule_ilustration.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_triangleprofile.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\triangleprofile.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item_category.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_item_category.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donate_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donate_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_headphones.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\headphones.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\radio_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hang_tv_logo.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\hang_tv_logo.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_loading.gif.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\image_loading.gif"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_hang_mobile_black.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\logo_hang_mobile_black.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fb_icon.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\fb_icon.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundrectangle_2.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\roundrectangle_2.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_isha_background.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\isha_background.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shalat_mushalla.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\shalat_mushalla.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_search.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_toolbar.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_toolbar.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangleprofile.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rectangleprofile.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\cursor.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_volume_on.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\volume_on.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shubuh_background.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\shubuh_background.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kajian_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\kajian_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_no_item.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_no_item.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sabtu.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_sabtu.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_web_view.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_web_view.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_program_3.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_program_3.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_ca_list_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_ca_list_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_studio_2.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\studio_2.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ustadz_program.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ustadz_program.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favourite_hover.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_favourite_hover.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_jumat.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_jumat.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_progress.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mandiri_syariah_icon.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\mandiri_syariah_icon.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\color_state_list.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\color\\state_list.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_button_uj.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\button_uj.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_icon.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\profile_icon.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_left_nav_header.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\left_nav_header.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_video.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube_logo.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\youtube_logo.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stop_black_24dp.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_stop_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_cat_background.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\black_cat_background.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donate_illustration.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donate_illustration.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectanglegrey.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rectanglegrey.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_hang_mobile_transparent.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\back_hang_mobile_transparent.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_atkj_icon.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\atkj_icon.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_load_video_gif_compp.gif.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\load_video_gif_compp.gif"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bahasa.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_bahasa.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_choose_location.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_choose_location.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewpager_layout.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\viewpager_layout.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slider_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_slider_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hang_fm_logo.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\hang_fm_logo.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donate_white_icon.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donate_white_icon.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_ic_launcher_round.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\mipmap\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dzuhur_background.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\dzuhur_background.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_rabu.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_rabu.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_latest_recyclerview.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_latest_recyclerview.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_fav_recyclerview.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_fav_recyclerview.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_recyclerview.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_recyclerview.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nonselecteditem_dot.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\nonselecteditem_dot.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_category_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rekening.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rekening.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p_live_radio.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\p_live_radio.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_program_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\program_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ab_web.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_ab_web.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donor_darah_1.jpg.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donor_darah_1.jpg"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_location_black.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_add_location_black.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_program2.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_program2.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_atkj_sound.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_atkj_sound.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_atkj_sound.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_atkj_sound.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_studio_3.jpeg.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\studio_3.jpeg"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loading.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_refresh_black_24dp.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_refresh_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundrectangle.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\roundrectangle.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selecteditem_dot.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\selecteditem_dot.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_program_icon.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\no_program_icon.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube_dark.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\youtube_dark.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v11_ic_stat_transmission4.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-xhdpi-v11\\ic_stat_transmission4.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorites.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_favorites.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_donate.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_donate.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_full_btn_dialog.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\full_btn_dialog.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item_video.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_item_video.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_jam_program.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_jam_program.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_latest.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_latest.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundrectanglewhite.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\roundrectanglewhite.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_home_cat_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_home_cat_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_first_dialog.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\first_dialog.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hangmobile_logo_png.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\hangmobile_logo_png.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangletransparent.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\rectangletransparent.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_home.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_category.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_category.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_atkj_illustration.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\atkj_illustration.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_program_2.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_program_2.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_no_internet.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_no_internet.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_info.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_info.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_front.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\main_front.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mushalla.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\mushalla.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_selasa.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_selasa.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_now_listen.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable-hdpi\\now_listen.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donate_ilustration.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donate_ilustration.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pray_icon_grad.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\pray_icon_grad.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_home_video_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_home_video_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_screen_grad.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\loading_screen_grad.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tema_program.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_tema_program.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_jadwal_shalat.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout-v21\\activity_jadwal_shalat.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donor_darah_2.png.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\donor_darah_2.png"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim_left_to_right.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\anim\\left_to_right.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_to_left.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\anim\\right_to_left.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_atkj_list.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_atkj_list.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_indicator_circle.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\indicator_circle.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\anim\\exit.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toolbar_gradient.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\toolbar_gradient.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ahad.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\fragment_ahad.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item_slider.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_item_slider.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_production.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\production.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_home_playlist_item.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\row_home_playlist_item.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_hang_mobile_transparent.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\logo_hang_mobile_transparent.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_main.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\main_main.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_drawer.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_company_profile.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_company_profile.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_stream_under.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\dialog_stream_under.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_konfirmasi.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\konfirmasi.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_jadwal_shalat.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\activity_jadwal_shalat.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_2.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_share_2.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p_atkj.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\p_atkj.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_slider_background.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\black_slider_background.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_last.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\layout\\main_last.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_kembali.xml.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ic_kembali.xml"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\share.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whatsapp_icon_fix.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\whatsapp_icon_fix.webp"
+    },
+    {
+        "merged": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ashar_background.webp.flat",
+        "source": "F:\\Kumpulan Backup Project\\HangMediaV.3.0\\app\\src\\main\\res\\drawable\\ashar_background.webp"
+    }
+]
